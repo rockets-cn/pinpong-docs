@@ -1,4 +1,24 @@
 ========
+Introduction
+========
+
+The PinPong library is a Python library designed for controlling open-source hardware main control boards. It is based on the Firmata protocol and is compatible with MicroPython syntax. Within 5 minutes, you can get started using Python to control open-source hardware.
+
+With the PinPong library, you can directly program various common open-source hardware using Python code. The principle behind this is to flash a specific firmware onto the open-source hardware, enabling it to communicate with a computer through a serial port and execute various commands.
+
+The name of the PinPong library is a combination of "Pin" and "Pong". "Pin" refers to the pins, and "PinPong" is a play on the word "ping pong", symbolizing the back-and-forth of signals.
+
+The design of the pinpong library is to liberate developers from the constraints of numerous hardware models during the development process and to shift the focus to software implementation. Even if the initial programming is done using Arduino, and the deployment later switches to a different control board, a simple modification to the hardware parameters ensures smooth operation, realizing the principle of “write once, run anywhere”.
+
+.. Note:: The current PinPong library is undergoing rapid updates. It already supports Arduino series such as uno, leonardo, mega2560, ESP32 series control boards (handpy), micro:bit (microbit), sky-empty board (unihiker), with support for 50+ sensors. Other main control boards and more extension libraries will be gradually supported.
+
+Recommended reading flow for this document:
+
+#. Check the installation tutorial for preparation.
+#. Review the examples for a quick start test.
+#. Refer to the tutorial for systematic learning.
+
+========
 简介
 ========
 
@@ -19,3 +39,6 @@ pinpong库的设计，是为了让开发者在开发过程中不用被繁杂的�
 #. 查看安装教程进行准备
 #. 查看示例快速上手测试
 #. 查看教程进行系统学习
+
+
+
